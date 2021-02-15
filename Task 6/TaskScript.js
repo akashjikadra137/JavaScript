@@ -2,7 +2,7 @@ var size = +prompt("Enter size of pattern:",6);
 var a = [];
 var str1 = "A";
 var str2;
-var temp;
+var str3="";
 for (let i=0;i<size;i++){
     a[i] = [];
     for(let j=0;j<size+1;j++){
@@ -29,4 +29,11 @@ for (let i=0;i<size;i++){
     }
     str2=a[0][size-2];    
 }
-console.log(a);
+
+for (let i=0;i<size;i++){
+    for(let j=0;j<2*size-1;j++){
+        str3 += a[i][j];
+    }
+    str3 +="\n";
+}
+console.log(str3);
