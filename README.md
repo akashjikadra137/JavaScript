@@ -28,19 +28,19 @@ It returns a `string` with the type name of datatype.
 It can be used as an operator `typeof x` as well as a function `typeof(x)`.
 
 ### Interactions 
-1) alert()
+1) `alert()`
 It shows a popup box displaying message that is passed in it.
 It takes one argument and converts it into `string` and prints it into popup.
 ```JavaScript
 alert("Hello World!");
 ```
-2) prompt()
+2) `prompt()`
 It takes two arguments let say `a` and `b`. Here `a` is the question you want to ask and `b` is default message. Second parameter is not mandatory.
 If pressed `Ok`, it returns the input string else if you press `cancel`, it returns null as a result.
 ```JavaScript
 var ans = prompt("Are you a Programmer?", "Not Sure");
 ```
-3) confirm()
+3) `confirm()`
 It takes one argument which will be a question that can be answered in yes or no.
 If pressed `Ok`, it returns true else if you press `cancel`, it returns false as a result.
 ```JavaScript
